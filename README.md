@@ -1,7 +1,5 @@
 # JFTudou
 高仿土豆
-
-![首页](http://7pum4h.com1.z0.glb.clouddn.com/td首页.gif)
 ![视频详情页](http://7pum4h.com1.z0.glb.clouddn.com/视频详情页.gif)
 ![视频页](http://7pum4h.com1.z0.glb.clouddn.com/td视频页.gif)
 ![订阅](http://7pum4h.com1.z0.glb.clouddn.com/td订阅.gif)
