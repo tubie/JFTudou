@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JFWatchRecordViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="viewing-history.png" translatesAutoresizingMaskIntoConstraints="NO" id="SGx-4Z-bmE">
+                    <rect key="frame" x="68" y="129" width="185" height="135"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="没有发现你的足迹" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8kf-Fh-isJ">
+                    <rect key="frame" x="100" y="273" width="120" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="qxT-Dj-pfP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="SGx-4Z-bmE" secondAttribute="trailing" constant="67" id="2cK-oc-uLL"/>
+                <constraint firstItem="8kf-Fh-isJ" firstAttribute="top" secondItem="SGx-4Z-bmE" secondAttribute="bottom" constant="9" id="QXe-Qa-dcu"/>
+                <constraint firstItem="SGx-4Z-bmE" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="129" id="YTa-RL-Ubc"/>
+                <constraint firstItem="8kf-Fh-isJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="100" id="bT0-vm-lzd"/>
+                <constraint firstAttribute="bottom" secondItem="8kf-Fh-isJ" secondAttribute="bottom" constant="274" id="dci-pn-f8F"/>
+                <constraint firstItem="SGx-4Z-bmE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="68" id="u41-mh-2gI"/>
+                <constraint firstAttribute="trailing" secondItem="8kf-Fh-isJ" secondAttribute="trailing" constant="100" id="yFk-yM-58Y"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="viewing-history.png" width="180" height="135"/>
+    </resources>
+</document>
