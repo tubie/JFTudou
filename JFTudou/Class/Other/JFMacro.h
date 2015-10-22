@@ -4,7 +4,10 @@
 //
 //  Created by 保修一站通 on 15/8/15.
 //  Copyright (c) 2015年 JF团购. All rights reserved.
-//
+////  项目详解：
+//  github:https://github.com/tubie/JFTudou
+//  简书：http://www.jianshu.com/p/2156ec56c55b
+
 
 #ifndef JF___JFMacro_h
 #define JF___JFMacro_h
@@ -26,11 +29,6 @@
 
 
 
-
-
-//经纬度   这里经纬度写死的，真是开发中应该根据定位出来获取到的
-#define LATITUDE_DEFAULT 39.983497
-#define LONGITUDE_DEFAULT 116.318042
 
 //系统版本
 #define IOS_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]

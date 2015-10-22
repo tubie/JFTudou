@@ -4,7 +4,9 @@
 //
 //  Created by 保修一站通 on 15/10/6.
 //  Copyright (c) 2015年 JF. All rights reserved.
-//
+//  项目详解：
+//  github:https://github.com/tubie/JFTudou
+//  简书：http://www.jianshu.com/p/2156ec56c55b
 
 #import "ViewController.h"
 #import "JFHomeModel.h"
